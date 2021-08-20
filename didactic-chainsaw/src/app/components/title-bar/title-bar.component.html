@@ -1,0 +1,27 @@
+<!--Container of the top nav-->
+<div class="title-bar">
+    <!--Insert the logo svg/png here-->
+    <div class="site-logo centered">
+        <img>
+    </div>
+    <div class="flex-spacer"></div>
+    <div class="link-container centered">
+        <app-title-bar-link
+         [link]="'/about'"
+         [text]="'About'"
+         [index]="1"></app-title-bar-link>
+         <app-title-bar-link
+         [link]="'/Projects'"
+         [text]="'Projects'"
+         [index]="2"></app-title-bar-link>
+         <app-title-bar-link
+         [link]="'/Work'"
+         [text]="'Work'"
+         [index]="3"></app-title-bar-link>
+         <app-title-bar-link
+         [link]="'/Contact'"
+         [text]="'Contact'"
+         [index]="4"></app-title-bar-link>
+    </div>
+    <div class="right-spacer"></div>
+</div>

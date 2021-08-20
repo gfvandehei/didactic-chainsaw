@@ -1,0 +1,21 @@
+@use '../../../styles.scss' as styles;
+
+.main-container{
+    color: styles.$fif-color;
+    padding-left: 50px;
+}
+
+h1{
+    font-size: 5vw;
+    margin-bottom: 5vw;
+}
+
+h2{
+    color: styles.$q-color;
+    font-size: 8vw;
+    margin-bottom: 5vw;
+}
+
+h3{
+    font-size: 8vw;
+}
