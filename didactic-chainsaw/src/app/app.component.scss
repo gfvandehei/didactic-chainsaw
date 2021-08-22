@@ -1,4 +1,6 @@
 @use 'sass:map';
 @use '~@angular/material' as mat;
 
-
+.main-content{
+    padding-left: 80px;
+}

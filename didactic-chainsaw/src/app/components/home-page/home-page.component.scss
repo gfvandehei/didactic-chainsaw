@@ -2,7 +2,6 @@
 
 .main-container{
     color: styles.$fif-color;
-    padding-left: 50px;
 }
 
 h1{
@@ -18,4 +17,9 @@ h2{
 
 h3{
     font-size: 8vw;
+}
+
+p{
+    margin-top: 20px;
+    max-width: 540px;
 }

@@ -7,13 +7,15 @@ import { TitleBarComponent } from './components/title-bar/title-bar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TitleBarLinkComponent } from './components/title-bar-link/title-bar-link.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
+import { AboutPageComponent } from './components/about-page/about-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TitleBarComponent,
     TitleBarLinkComponent,
-    HomePageComponent
+    HomePageComponent,
+    AboutPageComponent
   ],
   imports: [
     BrowserModule,
